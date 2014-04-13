@@ -131,7 +131,7 @@
                 return;
             }
 
-            $.getJSON('data/' + countryElement.val() + '/states.json', function (states) {
+            $.getJSON('data/' + countryElement.val().toLowerCase() + '/states.json', function (states) {
                 stateElement.append('<option>Selecione</option>');
 
                 for (var i = 0; i < states.length; i++) {
@@ -154,7 +154,7 @@
                 return;
             }
 
-            $.get('data/' + countryElement.val() + '/cities.json', function (cities) {
+            $.get('data/' + countryElement.val().toLowerCase() + '/cities.json', function (cities) {
                 cityElement.append('<option>Selecione</option>');
                 for (var i = 0; i < cities.length; i++) {
                     var city = cities[i];
