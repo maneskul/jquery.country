@@ -9,7 +9,8 @@
       <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
       <title>jquery.country - open-source jquery plugin</title>
       <!-- Bootstrap core CSS -->
-      <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	  
       <style>
          .jumbotron select.form-control{width:180px}
          .jumbotron label{ display:block}
@@ -61,21 +62,21 @@
       <div class="jumbotron">
          <div class="container">
             <h1>jquery.country</h1>
-            <p>Is a plugin that helps user to select a location through country, city and state, without any using a of database.</p>
-			<div class="alert alert-info">Contribute! Currently only <strong>Brazil</strong> region data. But feel free to create information about of your country.</div>
+            <p>É um plugin que ajuda usuarios a selecionar em um drop down as informações referentes a seu pais, estado e cidade, sem utilizar nenhum banco de dados.</p>
+			<div class="alert alert-info">Contribua! Atualmente suporta apenas as regioes do <strong>Brasil</strong>. Mas sinta-se livre para criar informações sobre outras localidades.</div>
             <div class="bs-example">
                <form  class="form-inline" role="form">
 				  
                   <div  class="form-group">
-                     <label for="country">Country</label>
+                     <label for="country">Pais</label>
                      <select class="form-control" name="country" id="country"></select>
                   </div>
                   <div class="form-group">
-                     <label for="state">State</label>
+                     <label for="state">Estado</label>
                      <select class="form-control" name="state" id="state"></select>
                   </div>
                   <div class="form-group">
-                     <label for="city">City</label>
+                     <label for="city">Cidade</label>
                      <select class="form-control" name="city" id="city"></select>
                   </div>
                </form>
@@ -90,22 +91,22 @@
          <!-- Example row of columns -->
          <div class="row">
             <div class="col-md-4">
-               <h2>Why jquery.country</h2>
-               <p>The jquery.country help you let your business model cleaner, avoiding unnecessary creation of entities, tables and relationships that obfuscate the main purpose of your software.</p>
-			   <p>Help save resources in the database, all information about regions are stored in minified json files.</p>
-			   <p>Saves development time that is usually wasted to organize and assemble a database of regional information.</p>
+               <h2>O que é o jQuery.Country?</h2>
+               <p>O jquery.country ajuda você deixar o seu modelo de negócio mais limpo, evitando a criação desnecessária de entidades, tabelas e relacionamentos que pode ofuscar o objetivo principal de seu software.</p>
+			   <p>Ajude a preservar os recursos do banco de dados, pois todas as informações sobre as regiões são armazenados em arquivos JSON minified.</p>
+			   <p>Economiza tempo de desenvolvimento que normalmente é desperdiçado para organizar e montar um banco de dados de informação regional.</p>
             </div>
             <div class="col-md-4">
-               <h2>For who?</h2>
-               <p>For any web developer that needs a simple solution to collect location information of their users.</p>
-			   <p>Is highly recommended for software that does not require that the location information be stored in a relational database.</p>
-			   <p>If your software does not have business rules related to region location, probably this plugin fits for you.</p>
+               <h2>Para quem é?</h2>
+               <p>Para qualquer desenvolvedor web que precisa de uma solução simples para coletar informações sobre a localização de seus usuários.</p>
+			   <p>É altamente recomendado para softwares que não requer que as informações de localização sejam armazenada em um banco de dados relacional.</p>
+			   <p>Se o seu software não tem regras de negócio relacionadas com a localização regional, provavelmente este plugin se encaixa perfeitamente para você.</p>
             </div>
             <div class="col-md-4">
-               <h2>Contribute</h2>
-               <p>The plugin is an open-source project with the goal of supporting all regions of the globe.</p>
-			   <p>The plugin is in development phase, its beta version was delivered with only the regions of Brazil.</p>
-			   <p>If you need support for other regions please contact us and help us collect information.</p>
+               <h2>Contribua!</h2>
+               <p>O plugin é um projeto de código aberto com o objetivo de apoiar todas as regiões do mundo.</p>
+			   <p>Está em fase de desenvolvimento, a versão beta foi entregue apenas com as regiões do Brasil.</p>
+			   <p>Se você precisar de suporte para outras regiões entre em contato conosco e nos ajudar a coletar informações.</p>
             </div>
          </div>
          <hr>
@@ -118,7 +119,7 @@
          ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+	  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
       <script src="jquery.country.js"></script>
       <script>
          (function ($) {
